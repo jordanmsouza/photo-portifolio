@@ -970,7 +970,8 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 450px;
+			height: 267.267px;
 		}
 
 		.image.featured {
@@ -981,7 +982,9 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 450px;
+			height: 267.267px;
+			
 		}
 
 		.image.left {
@@ -1792,17 +1795,17 @@ input, select, textarea {
 			}
 
 			.gallery.inactive article.from-top {
-				-moz-transform: translateY(-7em);
-				-webkit-transform: translateY(-7em);
-				-ms-transform: translateY(-7em);
-				transform: translateY(-7em);
+				-moz-transform: translateY(auto);
+				-webkit-transform: translateY(auto);
+				-ms-transform: translateY(auto);
+				transform: translateY(auto);
 			}
 
 			.gallery.inactive article.from-bottom {
-				-moz-transform: translateY(7em);
-				-webkit-transform: translateY(7em);
-				-ms-transform: translateY(7em);
-				transform: translateY(7em);
+				-moz-transform: translateY(auto);
+				-webkit-transform: translateY(auto);
+				-ms-transform: translateY(auto);
+				transform: translateY(auto);
 			}
 
 		@media screen and (max-width: 480px) {
