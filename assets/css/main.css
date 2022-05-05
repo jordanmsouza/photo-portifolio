@@ -970,7 +970,8 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 450px;
+			height: 286px;
 		}
 
 		.image.featured {
@@ -981,7 +982,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 450px;
+			height: 286px;
 		}
 
 		.image.left {
